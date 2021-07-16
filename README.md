@@ -83,6 +83,6 @@ SCSS is used for styles
 
 React Hooks is app development
 
-ESLint is installed to avoid Javascript errors
+ESLint is installed to avoid Javascript syndax errors
 
 styled component is used.
