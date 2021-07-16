@@ -1,0 +1,50 @@
+  .mainHeader {
+    text-align: center;
+    margin: 0 !important;
+    padding-bottom: 25px;
+      .header {
+          border: 1px solid #ccc;
+          cursor: pointer;
+      }
+  }
+  .mainContainer {
+    text-align: center;
+    margin: 0 !important;
+    padding: 20px;
+    background: aliceblue;
+    .paginationContainer {
+      display: inline-block;
+      padding-top: 20px;
+    }
+    .dataContainer {
+      background: floralwhite;
+      font-family: inherit;
+      cursor: pointer;
+      transition: transform .2s;
+      min-height: 100px;
+      div {
+        padding: 8px !important;
+      }
+    }
+    .dataContainer:hover {
+      transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    }
+  }
+
+.detailsModal {
+  .modalClose {
+    float: right;
+  }
+  h3 {
+    text-align: center;
+    font-weight: 600;
+    color: #353239;
+  }
+
+  h3 span span {
+    color: #3dc0f3;
+    position: relative;
+    bottom: -10px;
+    opacity: 0;
+  }
+}

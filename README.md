@@ -68,3 +68,21 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## details about the application
+
+test-app is simple react app .
+
+test-app is listing university name in grid view. The UI is developed as responsive. Simple pagination is added in the page to avoid more columns in the page. Pagination is dynamic. It depends on the data return by the API.
+
+while clicking the name of the university , a modal box will open and show a joke.
+
+Loader is added for the delay in data fetching jokes.
+
+SCSS is used for styles
+
+React Hooks is app development
+
+ESLint is installed to avoid Javascript errors
+
+styled component is used.
